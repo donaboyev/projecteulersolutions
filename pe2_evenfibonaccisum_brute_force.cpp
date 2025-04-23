@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
   cout<<"Even fibonacci numbers sum"<<endl;
-  long long sum = 2;
+  int sum = 2;
   int a=1, b=2, current = 3;
   while(current < 4000000) {
     if(current%2==0) {
